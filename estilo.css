@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image:url(./img/gato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .logo {
+	font-size: 25px;
+     font-weight: 600;
+     color: #000;
+	text-decoration: none;
+}
+  .menu  {
+	display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+.menu a {
+	font-size: 22px;
+     border-bottom: 2px solid transparent;
+     margin-left: 40px;
+     color: white;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menu a:hover {
+	border-bottom: 2px solid #f2c968;
+}
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #map {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+ 
+  .redes-sociales a.facebook:hover {
+    color: #3b5998;
+  }
+
+  .redes-sociales a.twitter:hover {
+    color: #1da1f2;
+  }
+
+  .redes-sociales a.instagram:hover {
+    color: #e4405f;
+  }
+
+  .redes-sociales a.whatsapp:hover {
+    color: #25d366;
+  }
+  
